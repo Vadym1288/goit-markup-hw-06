@@ -1,0 +1,95 @@
+@media screen and (max-width: 1157px) {
+    .adventages-list-icon {
+      display: none;
+    }
+    .list-hero {
+      padding-top: 96px;
+      padding-bottom: 96px;
+    }
+    .title-list-hero {
+      color: #2e2f42;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 1.12;
+      letter-spacing: 0.02px;
+      text-transform: capitalize;
+      margin-bottom: 8px;
+    }
+    .text-list-hero {
+      color: #434455;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .item-list-hero {
+      display: flex;
+      width: 288px;
+      flex-direction: column;
+      gap: 72px;
+      align-items: flex-start;
+    }
+    .title-list-hero {
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1157px) {
+    .item-list-hero {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      row-gap: 72px;
+      column-gap: 24px;
+    }
+    .adventages-list {
+      max-width: 356px;
+    }
+  }
+  
+  @media screen and (min-width: 1158px) {
+    .list-hero {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+  
+    .item-list-hero {
+      display: flex;
+      gap: 24px;
+    }
+  
+    .adventages-list {
+      min-width: 264px;
+      width: calc((100% - 120px) / 4); 
+    }
+  
+    .adventages-list-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 112px;
+      border-radius: 4px;
+      border: 1px solid var(--lightslate, #8e8f99);
+      background: var(--cloud, #f4f4fd);
+      margin-bottom: 8px;
+    }
+  
+    .title-list-hero {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      color: #2e2f42;
+      margin-bottom: 8px;
+    }
+    .text-list-hero {
+      color: #434455;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+    }
+  }
